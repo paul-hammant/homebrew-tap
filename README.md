@@ -2,7 +2,7 @@
 
 Paul Hammant's custom brew formulas
 
-# Installation of tap
+# Installation of the tap
 
 ```bash
 brew tap paul-hammant/tap
@@ -22,6 +22,6 @@ or
 $ brew install paul-hammant/tap/switchjdk
 ```
 
-### Command's repo
+### Switchjdk's repo and usage documentation
 
 switchjdk: https://github.com/paul-hammant/switchjdk
