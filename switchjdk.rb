@@ -14,11 +14,9 @@ class Switchjdk < Formula
   end
 
   def caveats; <<-EOS.undent
-      Add the following lines to your ~/.bash_profile:
-        if [ -f $(brew --prefix)/etc/switchjdk-module.bash ]; then
-          source $(brew --prefix)/etc/switchjdk-module.bash
-        fi
-      Start a new terminal session or source ~/.bash_profile to be able to use switchjdk.
+      Your ~/.bash_profile had a couple of lines added to it to make switchjdk available on the command line.
+      They will still be there after an uninstall, but are adaptive (nothing happens if switchjdk was uninstalled)
+      If you're a zsh person, then patches are welcome: https://github.com/paul-hammant/switchjdk/blob/master/add_switchjdk_to_bash_profile_safely.sh
       EOS
     end
 
