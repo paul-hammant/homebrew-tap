@@ -15,12 +15,18 @@ Now just follow the installation instructions below for any of the formulas you 
 
 ```bash
 $ brew install switchjdk
-```
-or
-
-```bash
+# or
 $ brew install paul-hammant/tap/switchjdk
 ```
+
+After that ...
+
+```bash
+$ source ~/.bash_profile
+```
+
+... or close and reopen terminal tabs.
+
 
 ### Switchjdk's repo and usage documentation
 
