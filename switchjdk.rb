@@ -1,8 +1,8 @@
 class Switchjdk < Formula
   homepage "://github.com/paul-hammant/switchjdk"
-  url "https://github.com/paul-hammant/switchjdk/archive/v0.9.8.tar.gz"
-  version "0.9.8"
-  sha256 "e70133001a2120e99bfbe5d1df42d1b812bd171a46c2e2b039584aa74f960e1f"
+  url "https://github.com/paul-hammant/switchjdk/archive/v0.9.9.tar.gz"
+  version "0.9.9"
+  sha256 "a1580e46cc2070d5e5046d679d05eb7599d1d01269895848638df3485774771b"
 
   def install
       bin.install 'add_switchjdk_to_bash_profile_safely.sh'
