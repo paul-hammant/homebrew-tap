@@ -5,6 +5,9 @@ class Switchjdk < Formula
   sha256 "adc617f1d140a7d52a29b83335f758c1d2e2c1aa13e8a8b29c3bdb3de8755994"
 
   def install
+      if File.file?("#{etc}/switchjdk-module.bash") then
+          system "rm", "#{etc}/switchjdk-module.bash"
+      end
       bin.install 'add_switchjdk_to_bash_profile_safely.sh'
       etc.install 'switchjdk-module.bash'
   end
