@@ -37,3 +37,18 @@ $ brew install paul-hammant/tap/git-slim
 ## git-slim's repo and usage documentation
 
 git-slim: https://github.com/paul-hammant/git-slim
+
+# git-size - Git sub-command to inform on the byte size of aspects of a Git clone
+
+## Installing git-size
+
+```bash
+$ brew tap paul-hammant/tap
+$ brew install git-size
+# or
+$ brew install paul-hammant/tap/git-size
+```
+
+## git-size's repo and usage documentation
+
+git-slim: https://github.com/paul-hammant/git-size
