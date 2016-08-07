@@ -1,4 +1,4 @@
-# Paul Hammant's custom brew formulas
+# Paul Hammant's custom Homebrew (Mac) formulas
 
 # switchjdk - switches JDK versions on the command line
 
