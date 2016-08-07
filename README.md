@@ -35,3 +35,7 @@ $ brew install git-slim
 # or
 $ brew install paul-hammant/tap/git-slim
 ```
+
+## git-slim's repo and usage documentation
+
+git-slim: https://github.com/paul-hammant/git-slim
