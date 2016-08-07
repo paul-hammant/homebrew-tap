@@ -2,7 +2,7 @@
 
 Paul Hammant's custom brew formulas
 
-# Installation of the tap
+# Adding this Homebrew tap to your list of taps
 
 ```bash
 brew tap paul-hammant/tap
@@ -27,7 +27,16 @@ $ source ~/.bash_profile
 
 ... or close and reopen terminal tabs.
 
-
 ### Switchjdk's repo and usage documentation
 
 switchjdk: https://github.com/paul-hammant/switchjdk
+
+# git-slim - slims down a local Git clone/repo
+
+## Installing git-slim
+
+```bash
+$ brew install git-slim
+# or
+$ brew install paul-hammant/tap/git-slim
+```
