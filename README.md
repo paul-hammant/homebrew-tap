@@ -1,6 +1,4 @@
-# homebrew-tap
-
-Paul Hammant's custom brew formulas
+# Paul Hammant's custom brew formulas
 
 # switchjdk - switches JDK versions on the command line
 
