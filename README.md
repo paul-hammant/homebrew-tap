@@ -2,18 +2,12 @@
 
 Paul Hammant's custom brew formulas
 
-# Adding this Homebrew tap to your list of taps
-
-```bash
-brew tap paul-hammant/tap
-```
-Now just follow the installation instructions below for any of the formulas you want.
-
 # switchjdk - switches JDK versions on the command line
 
 ## Installing switchjdk
 
 ```bash
+$ brew tap paul-hammant/tap
 $ brew install switchjdk
 # or
 $ brew install paul-hammant/tap/switchjdk
@@ -36,6 +30,7 @@ switchjdk: https://github.com/paul-hammant/switchjdk
 ## Installing git-slim
 
 ```bash
+$ brew tap paul-hammant/tap
 $ brew install git-slim
 # or
 $ brew install paul-hammant/tap/git-slim
