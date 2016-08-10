@@ -2,7 +2,7 @@ class GitSize < Formula
   homepage "://github.com/paul-hammant/git-size"
   url "https://github.com/paul-hammant/git-size/archive/v1.0.4.tar.gz"
   version "1.0.4"
-  sha256 "679123d01e7d31944a71b6f7fe709fbac804e12a2fdea4799240d79d5dc8205e"
+  sha256 "29abe1b549fe095d1333cfcd72d2f40f7073592f018591a7de36a067b8ac8fb4"
 
   def install
       bin.install 'git-size'
