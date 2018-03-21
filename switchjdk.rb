@@ -1,8 +1,10 @@
 class Switchjdk < Formula
   homepage "://github.com/paul-hammant/switchjdk"
-  url "https://github.com/paul-hammant/switchjdk/archive/v1.0.0.tar.gz"
-  version "1.0.0"
-  sha256 "adc617f1d140a7d52a29b83335f758c1d2e2c1aa13e8a8b29c3bdb3de8755994"
+  url "https://github.com/paul-hammant/switchjdk/archive/v1.1.tar.gz"
+  version "1.1"
+  sha256 "e66b143f46b7f48d6418d06b8a81b79ce12d7b24d89f54da7fb606619350d7ef"
+
+  # shasum -a 256 v1.1.tar.gz
 
   def install
       if File.file?("#{etc}/switchjdk-module.bash") then
