@@ -1,7 +1,7 @@
 class Switchjdk < Formula
   homepage "://github.com/paul-hammant/switchjdk"
   url "https://github.com/paul-hammant/switchjdk/archive/v1.1.1.tar.gz"
-  version "1.1"
+  version "1.1.1"
   sha256 "6453616e2592d139023b8c96464ce81383ee3a1faf3c79fb5bc6e694dfff2c52"
 
   # shasum -a 256 v1.1.tar.gz
